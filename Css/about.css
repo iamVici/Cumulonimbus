@@ -1,0 +1,138 @@
+.about {
+    height: 600px;
+    border: 1px solid #f2f2f2;
+    border-radius: 24px;
+}
+
+.about-cumulonimbus {
+    border-radius: 24px;
+    padding: 24px;
+    margin: 0 !important;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    border: 1px solid #f2f2f2;
+}
+
+.about-cumulonimbus-gray {
+    background-color: #fdfdfd;
+}
+
+.about-cloud-gif {
+    background-image: url(./../Assets/About/cloud.gif);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(88, 58, 255, 0.0) 0px 48px 100px 0px;
+    height: 280px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.about-eeiris {
+    background-image: url(./../Assets/About/about-eeiris.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(88, 58, 255, 0.0) 0px 48px 100px 0px;
+    height: 280px;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.about-eeiris-b {
+    height: 200px;
+    background-image: url(./../Assets/About/about-eeiris-b.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(88, 58, 255, 0.0) 0px 48px 100px 0px;
+}
+
+.about-intro {
+    margin: 24px 0;
+    line-height: 2;
+    margin-bottom: auto;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+.about-intro p {
+    color: black;
+}
+
+.about-intro span {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 24px;
+}
+
+.about-intro a {
+    background-color: #747eff;
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 24px;
+}
+
+.about-intro a:hover {
+    background-color: #6872fc;
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 24px;
+}
+
+.vertical-text {
+    transform: rotate(-90deg);
+    margin: 0 !important;
+    font-weight: medium;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.vertical-text span{
+    transform: rotate(-90deg);
+    text-align: left;
+    margin: 0 !important;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.about-link {
+    text-decoration: none !important;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 1.1;
+    color: var(--myblueeiris);
+    margin-top: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-link:hover {
+    color: #515ceb;
+    cursor: pointer;
+}
+
+.about-intro-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: medium;
+}
+
+.about-intro-title span {
+    font-size: 14px;
+    font-family: 'Voga-Medium';
+    text-transform: uppercase;
+    padding-top: 2px;
+    border-top: 1px solid black;
+}
+
+.about-intro-quote {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    color: #424242 !important;
+    padding-bottom: 16px;
+}

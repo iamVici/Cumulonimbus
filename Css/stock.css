@@ -1,0 +1,157 @@
+.jumbotron-stock {
+    border-radius: 24px;
+    padding: 24px;
+    align-content: center;
+    margin-top: 16px;
+}
+
+.jumbotron-stock-purple {
+    background-color: #747eff;
+    border: 1px solid #949bff;
+}
+
+.jumbotron-stock-black {
+    background-color: #292d30;
+    border: 1px solid #32363a;
+}
+
+.jumbotron-stock-red {
+    background-color: var(--myred);
+    border: 1px solid var(--myred);;
+}
+
+.stock-number {
+    padding: 8px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+}
+
+.stock-number-purple {
+    color:#747eff;
+}
+
+.stock-number-red {
+    color: var(--myred);
+}
+
+.stock-title {
+    font-weight: bold;
+    color: white;
+    padding-left: 8px;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.stock-subtitle {
+    font-weight: light;
+    color: rgba(255, 255, 255, 0.5); 
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.stock-line-base {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.stock-line {
+    height: 4px;
+    align-content: center;
+}
+
+.stock-line-a {
+    background-color: white;
+    margin-right: 4px;
+}
+
+.stock-line-b {
+    border-top: 4px dashed white;
+    background-size: 10px 2px;
+}
+
+.stock-line-c {
+    background-color: rgba(255, 255, 255, 0.5); 
+    margin-left: 4px;
+}
+
+.stock-line-text {
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    margin-top: 4px;
+}
+
+.stock-line-0 {
+    flex: 0; 
+}
+
+.stock-line-10 {
+    flex: 1; 
+}
+
+.stock-line-20 {
+    flex: 2; 
+}
+
+.stock-line-30 {
+    flex: 3; 
+}
+
+.stock-line-40 {
+    flex: 4; 
+}
+
+.stock-line-50 {
+    flex: 5; 
+}
+
+.stock-line-60 {
+    flex: 6; 
+}
+
+.stock-line-70 {
+    flex: 7; 
+}
+
+.stock-line-80 {
+    flex: 8; 
+}
+
+.stock-line-text-a {
+    flex: 6;
+}
+
+.stock-line-text-b {
+    flex: 3; 
+}
+
+.stock-line-text-c {
+    flex: 1; 
+}
+
+.stock-details-title{
+    font-size: 8px;
+    font-weight: medium;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.stock-details-number {
+    font-size: 24px;
+    color: white;
+    font-weight: medium;
+    line-height: 1;
+    padding-left: 4px;
+}
+
+.stock-details {
+    margin-top: 16px;
+}

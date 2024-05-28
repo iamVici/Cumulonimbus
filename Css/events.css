@@ -1,0 +1,105 @@
+.event-main-tag {
+    padding: 4px 24px;
+    border: 1px solid #424242;
+    background-color: #424242;
+    color: white;
+    text-transform: uppercase;
+    font-weight: medium;
+    border-radius: 16px;
+    font-size: 16px;
+    margin-right: 8px !important;
+}
+
+.event-tag {
+    padding: 4px 24px;
+    border: 1px solid #424242;
+    text-transform: uppercase;
+    font-weight: medium;
+    border-radius: 16px;
+    font-size: 16px;
+    margin-right: 8px !important;
+}
+
+.event-more-tag {
+    padding: 4px 16px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: medium;
+    border-radius: 16px;
+    font-size: 12px;
+    margin: 0 8px 8px 0 !important;
+}
+
+.event-date {
+    font-kerning: none;
+    font-weight: 600;
+    color: var(--myblueeiris);
+}
+
+.event-title {
+    font-weight: medium;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 540px;
+}
+
+.event-title span{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.event-description {
+    padding-top: 8px;
+    font-weight: 400;
+    color: #6e6e6e;
+    height: 160px;
+}
+
+.event-debut-eeiris {
+    background-image: url(./../Assets/Events/event-d.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(88, 58, 255, 0.0) 0px 48px 100px 0px;
+    height: 360px;
+    border-radius: 16px;
+    width: auto;
+}
+
+.event-second-eeiris {
+    background-image: url(./../Assets/Events/event-c.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(88, 58, 255, 0.0) 0px 48px 100px 0px;
+    height: 360px;
+    border-radius: 16px;
+    width: auto;
+}
+
+.event-third-eeiris {
+    background-image: url(./../Assets/Events/event-a.png);
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    border-radius: 16px;
+    width: auto;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 8px -80px 24px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 24px;
+}
+
+.event-fourth-eeiris {
+    background-image: url(./../Assets/Events/event-b.png);
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    border-radius: 16px;
+    width: auto;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 8px -80px 24px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 24px;
+}

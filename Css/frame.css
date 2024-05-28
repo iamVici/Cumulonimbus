@@ -1,0 +1,21 @@
+.main-frame{
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 40px;
+    margin-top: 16px;
+}
+
+.main-banner {
+    background-image: url('./../Assets/Banner/Main-banner.png');
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(88, 58, 255, 0.0) 0px 48px 100px 0px;
+    transition: 600ms;
+}
+
+.bottom-frame{
+    background-color: white;
+    border: 2px solid white;
+    margin-left: -2px;
+    margin-bottom: -2px;
+}
